@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(195, 191, 191);
+    color: rgb(45, 45, 45);
+    display: grid;
+    justify-content: center;
+}
+header, footer, .forms{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.picture-container{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border:2px solid rgb(77, 76, 76);
+    margin-top: 20px;
+}
+.bottom-buttons{
+    margin-top: 30px;
+}
+.top-buttons{
+    margin-bottom: 30px;
+}
+.nadpis{
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    border-color: rgb(221, 221, 221);
+}
+#nadpis{
+    margin-bottom: 20px;
+}
+
+label{
+    margin: auto auto 10px auto;
+    font-size: 1.2em;
+}
+.back{
+    float: left;
+}
+.forward{
+    float: right;
+}
+.change-design{
+    position: relative;
+    left: 32%;
+}
+.cd-buttons{
+    margin-top: 20px;
+}
+.share{
+    float: right;
+}
+#xmas,#bday{
+    margin-bottom: 10px;
+}
+.picture-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.first{
+    color: rgb(241, 239, 239);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 1.5em;
+}
+.first h2{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: rgb(178, 173, 173) 2px 2px;
+}
+.second {
+    color: rgb(17, 16, 16);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 1.4em;
+}
+
+.second h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.third {
+    color: rgb(189, 171, 56);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding-top: 5%;
+    text-shadow: black 3px 3px;
+}
+.third h2,
+.third p {
+    margin-right: 20px;
+    font-size: 1.5em;
+    margin-left: 50%;
+}
+.third h2 {
+    font-size: 3em;
+    text-transform: capitalize;
+}
+.fourth {
+    color: rgb(241, 239, 239);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    text-align: left;
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+.fourth h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.5em;
+}
+.fourth h2, .fourth p{
+    position: relative;
+    width: fit-content;
+    margin-left:15px;
+}
+#form2{
+    margin-bottom: 10px;
+}
+.change-text{
+    position: relative;
+    left: 39%;
+    margin-top: 10px;
+}
